@@ -4,8 +4,8 @@ REM First run: installs npm dependencies (can take a couple of minutes).
 
 cd /d "%~dp0frontend"
 
-if not exist "node_modules\" (
-    echo Installing frontend dependencies (first run only)...
+if not exist "node_modules" (
+    echo Installing frontend dependencies, first run only...
     call npm install
 )
 

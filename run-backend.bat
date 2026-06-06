@@ -4,7 +4,7 @@ REM First run: creates a virtual environment and installs dependencies.
 
 cd /d "%~dp0backend"
 
-if not exist ".venv\" (
+if not exist ".venv" (
     echo Creating Python virtual environment...
     python -m venv .venv
 )
